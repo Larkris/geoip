@@ -1,0 +1,68 @@
+{
+  "input": [
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cn",
+        "uri": "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cn",
+        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cn",
+        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/apple.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "lan",
+        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/lan.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "global",
+        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/global.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "telegram",
+        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/telegram.txt"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": "maxmindMMDB",
+      "action": "output",
+      "args": {
+        "outputName": "Country.mmdb",
+        "overwriteList": ["cn", "lan", "global", "telegram"]
+      }
+    },
+    {
+      "type": "text",
+      "action": "output"
+    }
+  ]
+}
