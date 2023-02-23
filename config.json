@@ -30,14 +30,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "lan",
-        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/lan.txt"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "name": "global",
         "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/global.txt"
       }
