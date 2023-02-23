@@ -1,6 +1,6 @@
 # 简介
 
-精简版 GeoIP，本项目每周六自动生成 MaxMind mmdb 格式文件`Country.mmdb`，仅包含 CN、LAN、Global 及 Telegram 地区的 IP 数据。
+精简版 GeoIP，本项目每周六自动生成 MaxMind mmdb 格式文件`Country.mmdb`，仅包含 CN、Global 及 Telegram 地区的 IP 数据。
 
 [![Build Country.mmdb](https://github.com/Larkris/GeoIP/actions/workflows/main.yml/badge.svg)](https://github.com/Larkris/GeoIP/actions/workflows/main.yml)
 
