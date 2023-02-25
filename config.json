@@ -23,7 +23,7 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/apple.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/apple.txt"
       }
     },
     {
@@ -31,7 +31,7 @@
       "action": "add",
       "args": {
         "name": "global",
-        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/global.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/global.txt"
       }
     },
     {
@@ -39,7 +39,7 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://raw.githubusercontent.com/Larkris/larkris/main/iplsit/telegram.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt"
       }
     }
   ],
