@@ -22,7 +22,7 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cn",
+        "name": "apple",
         "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/apple.txt"
       }
     },
@@ -49,7 +49,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "global", "telegram"]
+        "overwriteList": ["cn", "apple", "global", "telegram"]
       }
     },
     {
