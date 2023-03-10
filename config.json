@@ -22,6 +22,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "lan",
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "apple",
         "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/apple.txt"
       }
@@ -49,7 +57,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "apple", "global", "telegram"]
+        "overwriteList": ["cn", "lan", "apple", "global", "telegram"]
       }
     },
     {
