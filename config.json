@@ -40,7 +40,7 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "global",
+        "name": "telegram",
         "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt"
       }
     },
@@ -67,7 +67,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "apple", "global", "google"]
+        "overwriteList": ["cn", "apple", "google", "telegram", "global"]
       }
     },
     {
