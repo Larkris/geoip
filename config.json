@@ -49,6 +49,14 @@
       "action": "add",
       "args": {
         "name": "cn",
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/wechat.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "cn",
         "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt"
       }
     },
