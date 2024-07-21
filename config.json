@@ -41,7 +41,8 @@
       "action": "add",
       "args": {
         "name": "telegram",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt",
+        "onlyIPType": "ipv4"
       }
     },
     {
@@ -49,7 +50,8 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/wechat.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/wechat.txt",
+        "onlyIPType": "ipv4"
       }
     },
     {
@@ -57,7 +59,8 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt",
+        "onlyIPType": "ipv4"
       }
     },
     {
